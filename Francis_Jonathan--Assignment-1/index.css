@@ -1,0 +1,240 @@
+
+
+body{
+  padding:110px;
+  width:1000px;
+  margin-left: auto;
+  margin-right:auto;
+  background-color:#d5d5d5;
+}
+
+
+h1{
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size:55px;
+  position:relative;
+  left:-10px;
+}
+
+
+h2{
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size:35px;
+  color:grey;
+  position:relative;
+  left:-10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3,350px);
+  grid-auto-rows: 250px;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.figure1 {
+  position: relative;
+  height:250px;
+  width:350px;
+
+}
+
+
+.image1 {
+  display: block;
+  height:250px;
+  width:350px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease
+
+}
+
+
+.figure1:hover .overlay {
+  opacity: 1;
+  background: linear-gradient(to top left, rgba(255,255,255, 0.1) 0%, rgba(255,255,255, 0.15) 50%, rgba(255,255,255, 0.7)50%);
+}
+
+
+.figure2{
+  position: relative;
+  height:520px;
+  width:350px;
+  grid-row-start:1;
+  grid-row-end:3;
+
+}
+
+.image2 {
+  display: block;
+  height:520px;
+  width:350px;
+
+}
+
+
+.figure2:hover .overlay {
+  opacity: 1;
+  background: linear-gradient(to top left, rgba(255,255,255, 0.1) 0%, rgba(255,255,255, 0.15) 50%, rgba(255,255,255, 0.7)50%);
+}
+
+
+.figure3{
+  position: relative;
+  height:250px;
+  width:350px;
+}
+
+.image3 {
+  display: block;
+  height:250px;
+  width:350px;
+}
+
+
+.figure3:hover .overlay {
+  opacity: 1;
+  background: linear-gradient(to top left, rgba(255,255,255, 0.1) 0%, rgba(255,255,255, 0.15) 50%, rgba(255,255,255, 0.7)50%);
+}
+
+
+.figure4{
+  position: relative;
+  height:500px;
+  width:350px;
+  grid-row-start: 2;
+  grid-row-end:4;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+
+.image4 {
+  display: block;
+  height:500px;
+  width:350px;
+}
+
+.figure4:hover .overlay {
+  opacity: 1;
+  background: linear-gradient(to top left, rgba(255,255,255, 0.1) 0%, rgba(255,255,255, 0.15) 50%, rgba(255,255,255, 0.7)50%);
+}
+
+
+.figure5{
+  position: relative;
+  height:230px;
+  width:350px;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+
+.image5 {
+  display: block;
+  height:230px;
+  width:350px;
+}
+
+
+.figure5:hover .overlay {
+  opacity: 1;
+  background: linear-gradient(to top left, rgba(255,255,255, 0.1) 0%, rgba(255,255,255, 0.15) 50%, rgba(255,255,255, 0.7)50%);
+}
+
+
+.figure6{
+  position: relative;
+  height:500px;
+  width:350px;
+  grid-row-start:2;
+  grid-row-end:4;
+  grid-column-start:3;
+  grid-column-end:4;
+}
+
+.image6 {
+  display: block;
+  height:500px;
+  width:350px;
+}
+
+.figure6:hover .overlay {
+  opacity: 1;
+  background: linear-gradient(to top left, rgba(255,255,255, 0.1) 0%, rgba(255,255,255, 0.15) 50%, rgba(255,255,255, 0.7)50%);
+}
+
+text{
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+
+}
+
+h3{ 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+h4{ 
+ 
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal;
+  font-size: 15px;
+  color: black;
+}
+
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#d5d5d5;
+  position:relative;
+  left:-10px;
+  margin-right:auto;
+  margin-left:auto;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:blue;
+}
+
+
+
